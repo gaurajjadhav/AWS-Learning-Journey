@@ -241,7 +241,7 @@ Checked the scope of the following services:
 Service	   Scope
 EC2	        Regional
 IAM	        Global
-Lambda	   Regional
+Lambda	     Regional
 Route 53	   Global
 
 
