@@ -21,13 +21,7 @@
       
    
  - AWS service and service category overview
-      - AWS categories of services : • Compute
-    • Cost Management
-    • Database
-    • Management & Governance
-    • Networking & Content Delivery
-    • Security, Identity & Compliance
-    • Storage
+      - AWS categories of services :
       - Storage service 
       - Compute service 
       - Database service 
