@@ -189,7 +189,7 @@ https://docs.aws.amazon.com/general/latest/gr/root-vs-iam.html#aws_tasks-that-re
 
 ### Securing a new AWS account: Account root user
 
-- 1.	 While logged in as the root user, create an IAM user with AWS Console access (don’t attach permissions yet). Save access keys if needed.
+- 1.	While logged in as the root user, create an IAM user with AWS Console access (don’t attach permissions yet). Save access keys if needed.
 - 2.	Create an IAM group (e.g., FullAccess), attach policies granting full access to needed services, and add your IAM user to this group.
 - 3.	Disable and delete any root user access keys if they exist.
 - 4.	Enable a password policy for all users, copy the IAM users’ sign-in link, and then sign out from the root user.
