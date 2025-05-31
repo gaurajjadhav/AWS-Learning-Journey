@@ -30,7 +30,7 @@
       - AWS cost management service
       - Hands-on activity
 
-   ## Day 4 -AWS Cloud Security
+ ## Day 4 -AWS Cloud Security
    #### Topics:
    
      - AWS shared responsibility model
