@@ -16,15 +16,15 @@
 
  ## Day 3 - AWS Global Infrastructure
  - AWS Global Infrastructure
-    `AWS Regions
-    `Availability Zones
-    `AWS categories of services
-    Storage service category
-    Compute service category
-    Database service category
-    Networking and content delivery service
-    Security, identity, and compliance service
-    AWS cost management service
-    Hands-on activity
+      - AWS Regions
+      - Availability Zones
+      - AWS categories of services
+      - Storage service category
+      - Compute service category
+      - Database service category
+      - Networking and content delivery service
+      - Security, identity, and compliance service
+      - AWS cost management service
+      - Hands-on activity
    
  - AWS service and service category overview
