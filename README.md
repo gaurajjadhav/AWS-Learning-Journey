@@ -39,9 +39,9 @@
      - Securing accounts
      - Securing data on AWS
      - Working to ensure compliance
-  - Activities
+  - Activities : 
     AWS shared responsibility model activity
-  - Demo
+  - Demo :
     Recorded demonstration of IAM
-  - Lab
+  - Lab on :
     Introduction to AWS IAM
