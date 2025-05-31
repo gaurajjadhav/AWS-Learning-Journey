@@ -32,6 +32,7 @@
 
  ## Day 4 -AWS Cloud Security
  #### - Topics:
+ 
       - AWS shared responsibility model
       - AWS Identity and Access Management (IAM)
       - Securing a new AWS account
