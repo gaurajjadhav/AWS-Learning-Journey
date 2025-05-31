@@ -29,3 +29,21 @@
       - Security, identity, and compliance service
       - AWS cost management service
       - Hands-on activity
+
+   ## Day 4 -AWS Cloud Security
+   ## Topics: 
+- AWS shared responsibility model
+- AWS Identity and Access Management (IAM)
+- Securing a new AWS account
+- Securing accounts
+- Securing data on AWS
+- Working to ensure compliance
+  
+## Activities
+- AWS shared responsibility model activity
+
+## Demo
+- Recorded demonstration of IAM
+
+## Lab
+- Introduction to AWS IAM
