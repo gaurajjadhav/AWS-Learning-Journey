@@ -22,10 +22,12 @@
 
 ### AWS shared responsibility model 
 
-Security and compliance on AWS follow a shared responsibility model, designed to reduce the customer’s operational burden while offering flexibility and control. AWS is responsible for security of the cloud, which includes managing infrastructure, software, networking, and the physical security of its data centers. Customers are responsible for security in the cloud, such as encrypting data at rest and in transit, managing security credentials and logins, configuring security groups, and maintaining their operating systems — including updates and patches. This clear division ensures secure and efficient deployment of customer solutions on AWS.
+Security and compliance on AWS follow a shared responsibility model, designed to reduce the customer’s operational burden while offering flexibility and control. AWS is responsible for security of the cloud, which includes managing infrastructure, software, networking, and the physical security of its data centers. 
+
+Customers are responsible for security in the cloud, such as encrypting data at rest and in transit, managing security credentials and logins, configuring security groups, and maintaining their operating systems — including updates and patches. This clear division ensures secure and efficient deployment of customer solutions on AWS.
 
 AWS responsibility: Security of the cloud
-     Under the AWS shared responsibility model, AWS manages and secures everything from the bare metal infrastructure and virtualization layer to the physical security of its global facilities. This includes AWS Regions, Availability Zones, and edge locations. AWS is responsible for:
+     Under the AWS shared responsibility model, AWS manages and secures everything from the bare metal infrastructure and virtualization layer to the physical security of its global facilities. This includes AWS Regions, Availability     Zones, and edge locations. AWS is responsible for:
 -	Physical security: Restricted, need-based access to data centers, 24/7 guards, surveillance, two-factor authentication, and secure destruction of hardware.
 -	Hardware infrastructure: Servers, storage devices, and essential appliances.
 -	Software infrastructure: Operating systems, service applications, and virtualization tools.
@@ -34,7 +36,10 @@ AWS’s top priority is protecting this infrastructure. Although customers can�
 
 ### Customer responsibility: Security in the cloud
 
-In the AWS shared responsibility model, customers are responsible for what they implement using AWS services and how they secure their applications and data. Responsibilities include managing operating systems, application security, network and firewall configurations, security groups, and account access.
+In the AWS shared responsibility model, customers are responsible for what they implement using AWS services and how they secure their applications and data. 
+
+Responsibilities include managing operating systems, application security, network and firewall configurations, security groups, and account access.
+
 Customers retain full control over their content and must decide:
 -	What data to store on AWS
 -	Which services to use
@@ -46,9 +51,15 @@ Ultimately, customers are responsible for protecting their data, applications, I
 ### Service characteristics and security responsibility
 
 - Infrastructure as a Service (IaaS) provides the fundamental building blocks of cloud IT, such as virtual machines, storage, and networking. These services offer the highest level of flexibility and control over IT resources, closely resembling traditional on-premises infrastructure. In AWS, services like Amazon EC2 fall under IaaS. Customers using IaaS are fully responsible for configuring and managing the guest operating system, applying updates and patches, securing applications, and setting up security groups and firewall rules.
+
+  
 - Platform as a Service (PaaS) abstracts much of the underlying infrastructure, allowing customers to focus on building and deploying applications without worrying about hardware, operating systems, or patching. AWS services like AWS Lambda and Amazon RDS are examples of PaaS. AWS handles infrastructure operations including OS and database patching, capacity planning, and disaster recovery. Customers are responsible for managing the data they store, applying access controls, and ensuring proper classification and protection of their digital assets.
 In short, IaaS gives full control and more responsibility to the customer, while PaaS simplifies operations by letting AWS handle most infrastructure and platform-level tasks.
+
+
 - Software as a Service (SaaS) delivers centrally hosted software accessible via web browsers, mobile apps, or APIs. SaaS typically follows a subscription or pay-as-you-go model. Customers using SaaS do not manage the underlying infrastructure, which simplifies deployment and maintenance.
+
+  
 In AWS, services like AWS Trusted Advisor, AWS Shield, and Amazon Chime are examples of SaaS:
 -	AWS Trusted Advisor analyzes your AWS environment and offers real-time recommendations to optimize performance, security, and cost. Basic checks are free, while full access is included with Business or Enterprise Support plans.
 -	AWS Shield is a managed DDoS protection service that automatically detects and mitigates threats. Shield Advanced offers enhanced protection and access to the DDoS Response Team, available with Business or Enterprise Support.
@@ -88,6 +99,7 @@ IAM is a free service included with every AWS account and is essential for secur
 In AWS, when you create an IAM user, you assign one or both types of access:
 - Programmatic access: The user gets an access key ID and secret access key to make API calls via AWS CLI, SDKs, or development tools.
    AWS Management Console access: The user logs in via a browser using the account ID or alias, IAM username, and password. If enabled, multi-factor authentication (MFA) adds an extra security code step.
+  
 ### IAM MFA	
 
 AWS servicesand resources can be accessed by using the AWS Management Console, the AWS CLI, or through SDKs and APIs. For increased security, werecommend enabling MFA. 
@@ -102,27 +114,37 @@ By default, IAM users do not have permissions to access any resources or data in
 ### IAM: Authorization
 
 To assign permissions to a user, group, or role, you create or use an IAM policy. By default, all actions are denied (implicit deny) unless explicitly allowed, and any explicit deny always overrides allow.
-The principle of least privilege means granting users only the minimum permissions they need. It’s best to start with limited access and add permissions as required, which enhances security.
+
+The principle of least privilege means granting users only the minimum permissions they need. 
+
+It’s best to start with limited access and add permissions as required, which enhances security.
+
 IAM permissions and settings are global, applying across all AWS Regions, not limited to any specific region.
 
 ### IAM policies	
 
-            An IAM policy is a formal set of permissions attached to IAM entities—users, groups, roles, or resources. Policies define which actions are allowed or denied, on which resources, and under what conditions. All policies are evaluated together, and the most restrictive rule always applies.
+An IAM policy is a formal set of permissions attached to IAM entities—users, groups, roles, or resources. 
+	    
+Policies define which actions are allowed or denied, on which resources, and under what conditions. All policies are evaluated together, and the most restrictive rule always applies.
+
 There are two main types of IAM policies:
--	Identity-based policies: Attached to users, groups, or roles to control their permissions. These include:
-    -	Managed policies: Standalone policies reusable across multiple identities.
--	Inline policies: Embedded directly into a single user, group, or role.
-    - Resource-based policies: Attached directly to resources (like S3 buckets), specifying who can access the resource and how
+- Identity-based policies: Attached to users, groups, or roles to control their permissions. These include:
+- Managed policies: Standalone policies reusable across multiple identities.
+- Inline policies: Embedded directly into a single user, group, or role.
+- Resource-based policies: Attached directly to resources (like S3 buckets), specifying who can access the resource and how
 
 ### IAM permissions
 
-          IAM policies let you precisely control permissions for users, groups, and roles. When determining access, IAM first looks for any explicit deny. If none is found, it checks for an explicit allow. If neither exists, access is denied by default (implicit deny). A user can act only if the action is explicitly allowed and not explicitly denied.
+IAM policies let you precisely control permissions for users, groups, and roles. When determining access, IAM first looks for any explicit deny. If none is found, it checks for an explicit allow. If neither exists, access is denied by default (implicit deny). A user can act only if the action is explicitly allowed and not explicitly denied.
 To help test and troubleshoot permissions, AWS provides the IAM Policy Simulator tool:
 https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html
 
 ### IAM groups
 
-         An IAM group is a collection of IAM users that simplifies permission management. You attach policies to the group, and all users in that group inherit those permissions automatically. For example, a “Developers” group can have permissions common to developers; adding a user to the group grants them those permissions without assigning policies individually.
+An IAM group is a collection of IAM users that simplifies permission management. You attach policies to the group, and all users in that group inherit those permissions automatically. 
+
+For example, a “Developers” group can have permissions common to developers; adding a user to the group grants them those permissions without assigning policies individually.
+
 Key facts about IAM groups:
 -	A group can have many users; a user can belong to multiple groups.
 -	Groups cannot contain other groups (no nesting).
@@ -132,7 +154,10 @@ Key facts about IAM groups:
 
 ### IAM roles
 
-        An IAM role is an AWS identity with specific permissions, similar to an IAM user, but meant to be assumed by anyone who needs it. Unlike users, roles don’t have long-term credentials like passwords or access keys; instead, they provide temporary security credentials when assumed.
+An IAM role is an AWS identity with specific permissions, similar to an IAM user, but meant to be assumed by anyone who needs it. 
+
+Unlike users, roles don’t have long-term credentials like passwords or access keys; instead, they provide temporary security credentials when assumed.
+
 Roles are used to delegate access to users, applications, or services that don’t normally have access, such as:
 -	Granting temporary permissions to users within or across AWS accounts.
 -	Allowing mobile apps to access AWS resources without embedding keys.
@@ -152,9 +177,11 @@ IAM roles are key for flexible, secure access in cloud deployments.
  
 # Section 3: Securing a new AWS account
 
-AWS account root user access versus IAM access
-          When you create an AWS account, you start with a root user—an identity with full access to all resources, accessed via the email and password used to create the account. AWS strongly advises not to use the root user for daily tasks because it has unrestricted access.
+### AWS account root user access versus IAM access
+When you create an AWS account, you start with a root user—an identity with full access to all resources, accessed via the email and password used to create the account. AWS strongly advises not to use the root user for daily tasks because it has unrestricted access.
+
 Instead, create IAM users with specific permissions based on the principle of least privilege. For example, create an IAM user with admin access for full control, or users with read-only access as needed. Assign unique credentials to each user and avoid sharing credentials.
+
 The root user should only be used for a few special tasks that require its full privileges. More details are available here:
 https://docs.aws.amazon.com/general/latest/gr/root-vs-iam.html#aws_tasks-that-require-root
 	
@@ -172,8 +199,10 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-gr
 
 ### Securing a new AWS account: MFA
 
-       Require Multi-Factor Authentication (MFA) for the AWS account root user and all IAM users. MFA adds an extra layer of protection by requiring a time-based token along with the usual password or access keys.
+Require Multi-Factor Authentication (MFA) for the AWS account root user and all IAM users. MFA adds an extra layer of protection by requiring a time-based token along with the usual password or access keys.
+
 You can also enforce MFA for programmatic access to APIs.
+
 Options for generating MFA tokens include:
 -	Virtual MFA apps like Google Authenticator or Authy
 -	Physical U2F security key devices
@@ -186,18 +215,25 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_configure-ap
 ### Securing a new AWS account: AWS CloudTrail
 
 AWS CloudTrail is a critical service for logging and auditing all API requests made to resources within your AWS account. It provides operational visibility by recording activities such as creation, modification, and deletion of supported AWS services.
+
 By default, CloudTrail is enabled automatically when you create your AWS account, and it retains a record of the last 90 days of account management events. You can view and download this recent activity without needing to set up any additional configuration.
+
 If you want to retain logs for longer than 90 days, or if you want to set up alerts for specific events (for example, suspicious activities or key configuration changes), you need to create a new CloudTrail trail. This trail can be configured to deliver logs to an Amazon S3 bucket and integrate with Amazon CloudWatch for monitoring and alerting.
+
 For detailed guidance on how to create and configure a trail, you can follow the step-by-step instructions here:
 https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-a-trail-using-the-console-first-time.html
+
 To see which AWS services are supported by CloudTrail, visit:
 https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-aws-service-specific-topics.html
 
 ### Securing a new AWS account: Billing reports
 
 Another important step to secure and manage your new AWS account effectively is to enable billing reports, such as the AWS Cost and Usage Report. These reports give you detailed insights into your AWS resource usage and the estimated costs associated with that usage.
+
 AWS generates these reports and delivers them to an Amazon S3 bucket that you specify. The reports are updated at least once daily, helping you track your AWS spending over time—whether by the hour or by the day.
+
 Monitoring billing reports helps you identify unexpected usage patterns, control costs, and optimize your AWS environment.
+
 For detailed instructions on how to create and configure an AWS Cost and Usage Report, you can visit:
 https://docs.aws.amazon.com/cur/latest/userguide/cur-create.html
 
@@ -210,7 +246,6 @@ https://docs.aws.amazon.com/cur/latest/userguide/cur-create.html
 - Configure a strong password policy.
 - Delegate using roles instead of sharing credentials.
 - Monitor account activity using AWS CloudTrail.
-
 
 
 
@@ -230,6 +265,8 @@ In summary, AWS Organizations enhances security by enabling centralized governan
 -	SCPs look like IAM permission policies in syntax (JSON format), but unlike IAM policies, SCPs never grant permissions. Instead, they specify the upper limit of permissions that accounts or OUs in your organization can have.
 -	Attaching an SCP to the root or an OU acts as a safeguard or guardrail restricting what actions member accounts can perform, but it does not replace IAM policies. You still must assign IAM policies to users and roles inside each account to grant actual permissions.
 -	Think of SCPs as a permission boundary for accounts, limiting what can be done, while IAM policies are used inside accounts to grant permissions within those limits.
+
+  
 More details on enabling SCPs and managing policies are available in the AWS Organizations documentation, and IAM policies documentation explains how permissions are granted inside accounts.
 
 
@@ -316,6 +353,7 @@ https://docs.aws.amazon.com/whitepapers/latest/efs-encrypted-file-systems/encryp
 ### Securing Amazon S3 buckets and objects
 
   By default, all S3 buckets are private. Only explicitly granted users can access them.
+  
   Control tools for S3 access include:
 -	Amazon S3 Block Public Access:
 Overrides all other permissions to prevent public access. Enable this on buckets you want to keep private to avoid accidental exposure.
@@ -329,8 +367,6 @@ Control access to buckets or objects, especially for cases where the user/system
 An older way to control access, less commonly used now. Use cautiously to avoid overly permissive settings.
 - AWS Trusted Advisor:
 Has a bucket permission check tool to help identify buckets with overly broad or global access permissions.
-
-
 
 
 
@@ -375,6 +411,7 @@ This makes AWS Config essential for maintaining governance and security posture 
 -	Allows you to review, accept, and track important legal agreements like the Business Associate Agreement (BAA) necessary for HIPAA compliance.
 -	Supports centralized agreement acceptance across multiple AWS accounts via integration with AWS Organizations.
 It’s important to remember that while AWS Artifact provides AWS-side compliance documentation, customers remain responsible for their own security controls and compliance evidence related to their data and workloads.
+
 If you want to dig deeper, the AWS documentation on managing agreements in AWS Artifact is a great resource:
 https://docs.aws.amazon.com/artifact/latest/ug/managing-agreements.html
 
