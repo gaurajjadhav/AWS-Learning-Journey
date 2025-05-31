@@ -56,16 +56,22 @@ With SaaS, AWS handles all infrastructure and platform tasks, allowing customers
 
 
 # Section 2: AWS Identity and Access Management (IAM)
+
 ### AWS Identity and Access Management (IAM)
 
-             AWS Identity and Access Management (IAM) allows you to securely control access to AWS services and resources. It manages authentication (who can sign in) and authorization (what actions they can perform), offering fine-grained control over API calls across AWS.
+AWS Identity and Access Management (IAM) allows you to securely control access to AWS services and resources. It manages authentication (who can sign in) and authorization (what actions they can perform), offering fine-grained control over API calls across AWS.
+
 With IAM, you can:
--	Define who can access specific resources
--	Control how they access them (read, write, admin, etc.)
--	Assign different permissions to different users or groups
--	Manage access using the AWS Console, CLI, or SDKs
+
+- Define who can access specific resources  
+- Control how they access them (read, write, admin, etc.)  
+- Assign different permissions to different users or groups  
+- Manage access using the AWS Console, CLI, or SDKs  
+
 For example, some users may have full access to EC2 and S3, while others may only view certain S3 buckets or manage specific EC2 instances. IAM can also restrict users to view only billing information.
+
 IAM is a free service included with every AWS account and is essential for secure cloud resource management.
+
 
 ### IAM: Essential components
 
