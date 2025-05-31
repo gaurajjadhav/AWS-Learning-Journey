@@ -22,7 +22,7 @@
 
 ### AWS shared responsibility model 
 
-      Security and compliance on AWS follow a shared responsibility model, designed to reduce the customer’s operational burden while offering flexibility and control. AWS is responsible for security of the cloud, which includes managing infrastructure, software, networking, and the physical security of its data centers. Customers are responsible for security in the cloud, such as encrypting data at rest and in transit, managing security credentials and logins, configuring security groups, and maintaining their operating systems — including updates and patches. This clear division ensures secure and efficient deployment of customer solutions on AWS.
+Security and compliance on AWS follow a shared responsibility model, designed to reduce the customer’s operational burden while offering flexibility and control. AWS is responsible for security of the cloud, which includes managing infrastructure, software, networking, and the physical security of its data centers. Customers are responsible for security in the cloud, such as encrypting data at rest and in transit, managing security credentials and logins, configuring security groups, and maintaining their operating systems — including updates and patches. This clear division ensures secure and efficient deployment of customer solutions on AWS.
 
 AWS responsibility: Security of the cloud
      Under the AWS shared responsibility model, AWS manages and secures everything from the bare metal infrastructure and virtualization layer to the physical security of its global facilities. This includes AWS Regions, Availability Zones, and edge locations. AWS is responsible for:
@@ -34,7 +34,7 @@ AWS’s top priority is protecting this infrastructure. Although customers can�
 
 ### Customer responsibility: Security in the cloud
 
-         In the AWS shared responsibility model, customers are responsible for what they implement using AWS services and how they secure their applications and data. Responsibilities include managing operating systems, application security, network and firewall configurations, security groups, and account access.
+In the AWS shared responsibility model, customers are responsible for what they implement using AWS services and how they secure their applications and data. Responsibilities include managing operating systems, application security, network and firewall configurations, security groups, and account access.
 Customers retain full control over their content and must decide:
 -	What data to store on AWS
 -	Which services to use
