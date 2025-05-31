@@ -178,6 +178,7 @@ IAM roles are key for flexible, secure access in cloud deployments.
 # Section 3: Securing a new AWS account
 
 ### AWS account root user access versus IAM access
+
 When you create an AWS account, you start with a root user—an identity with full access to all resources, accessed via the email and password used to create the account. AWS strongly advises not to use the root user for daily tasks because it has unrestricted access.
 
 Instead, create IAM users with specific permissions based on the principle of least privilege. For example, create an IAM user with admin access for full control, or users with read-only access as needed. Assign unique credentials to each user and avoid sharing credentials.
