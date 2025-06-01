@@ -24,8 +24,8 @@ Topics Covered -
          - Charged typically per GB
 
     2) How do you pay for AWS?
-       AWS offers a range of cloud computing services. For each service, you pay for exactly the amount 
-      of resources that you actually need. This utility style pricing model includes:
+   AWS offers a range of cloud computing services. For each service, you pay for exactly the amount 
+   of resources that you actually need. This utility style pricing model includes:
          - Pay for what you use
          - Pay less when you reserve
          - Pay less when you use more
