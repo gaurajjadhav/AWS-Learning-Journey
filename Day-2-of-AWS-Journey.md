@@ -10,18 +10,18 @@ Topics Covered -
 • Technical Support
 
 ## Section 1: Fundamentals of Pricing
-           - 1)	AWS pricing model
-                - Three fundamental drivers of cost with AWS
-                     - a)	Compute
-                              - Charged per hour/second
-                              - Varies by instance type
-                              *Linux only
-                      - b)  Storage
-                              - Charge)  typically per GB
-                      - c)	Data transfer
-                              - Outbound is aggregated and charged
-                              - Inbound has no charge  (with some exceptions)
-                              - Charged typically per GB
+   1) AWS pricing model
+     - Three fundamental drivers of cost with AWS
+         - a) Compute
+             - Charged per hour/second
+             - Varies by instance type
+               *Linux only
+         - b) Storage
+             - Charge typically per GB
+         - c) Data transfer
+             - Outbound is aggregated and charged
+             - Inbound has no charge  (with some exceptions)
+             - Charged typically per GB
 
            2)	How do you pay for AWS?
                    AWS offers a range of cloud computing services. For each service, you pay for exactly the amount 
