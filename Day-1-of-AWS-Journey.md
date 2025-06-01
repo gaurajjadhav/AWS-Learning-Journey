@@ -8,14 +8,13 @@ intelligence—over the internet with **pay-as-you-go pricing**.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- ## Benefits of Cloud Computing
- Benefit               Description     
+ ## Benefits of Cloud Computing                    
 
-Cost-Efficient         Pay only for what you use; no upfront hardware investment.                   
-Scalable               Easily scale up or down depending on demand (auto-scaling, elastic load).   
-Agile & Fast           Quickly deploy and test new apps and services, reducing time-to-market.    
-Global Reach           Deploy apps and services closer to users with data centers worldwide.       
-Secure                 Built-in security features, compliance standards, and data protection.      
+- Cost-Efficient :        Pay only for what you use; no upfront hardware investment.                   
+- Scalable        :       Easily scale up or down depending on demand (auto-scaling, elastic load).
+- Agile & Fast     :      Quickly deploy and test new apps and services, reducing time-to-market.    
+- Global Reach      :     Deploy apps and services closer to users with data centers worldwide.       
+- Secure             :    Built-in security features, compliance standards, and data protection.      
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
