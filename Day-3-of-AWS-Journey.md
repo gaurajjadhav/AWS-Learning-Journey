@@ -5,10 +5,10 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  **Topics:** 
-   - AWS Global Infrastructure
-   - AWS service and service category overview
+    - AWS Global Infrastructure
+    - AWS service and service category overview
 
-- **Demo :**  AWS Global Infrastructure
+ - **Demo :**  AWS Global Infrastructure
 
 - **Hands-on Activity :**  AWS Management Console clickthrough
 
