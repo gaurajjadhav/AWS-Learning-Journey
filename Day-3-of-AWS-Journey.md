@@ -169,22 +169,8 @@ AWS provides several cost management services to help monitor and control spendi
 
 # Hands-on activity:  AWS Management Console clickthrough
 
-#### **Question #1**: Under which service category does the IAM service appear?
-Ans. **Security, Identity, and Compliance**
 
-#### **Question #2**: Under which service category does the AmazonVPCservice appear?
-Ans. **Networking & Content Delivery**
-
-#### Question #3: Does the subnet you selected exist at the level of the Region or at the level of the Availability Zone?
-Ans. **Availability Zone**
-
-#### Question #4: Does the VPC exist at the level of the Region or the level of the Availability Zone?
-Ans. **Region**
-
-#### Question #5: Which services are global instead of Regional?  Check Amazon EC2, IAM, Lambda, and Route 53
-Ans.**IAM and Route 53**
-
-## Activity Steps 
+## Activity Steps :
 
 ## 1. Launch and Access Console
 - Opened the AWS Sandbox environment.
@@ -215,12 +201,10 @@ Ans.**IAM and Route 53**
 
 Checked the scope of the following services:
 
-Service	  
-
-EC2	     :   Regional
-IAM	      :  Global
-Lambda	    : Regional
-Route 53	   :Global
+- EC2	:   Regional
+- IAM	      :  Global
+- Lambda	    : Regional
+- Route 53	   :Global
 
 
 
@@ -232,7 +216,20 @@ This hands-on activity helped in understanding:
 
 
 
+#### **Question 1**: Under which service category does the IAM service appear?
+Ans. *Security, Identity, and Compliance*
 
+#### **Question 2**: Under which service category does the AmazonVPCservice appear?
+Ans. *Networking & Content Delivery*
+
+#### Question 3: Does the subnet you selected exist at the level of the Region or at the level of the Availability Zone?
+Ans. *Availability Zone*
+
+#### Question 4: Does the VPC exist at the level of the Region or the level of the Availability Zone?
+Ans. *Region*
+
+#### Question 5: Which services are global instead of Regional?  Check Amazon EC2, IAM, Lambda, and Route 53
+Ans.*IAM and Route 53*
 
 
 
