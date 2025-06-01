@@ -15,11 +15,11 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Section 1: AWS Global Infrastructure:
-The AWS Global Infrastructure is designed and built to deliver a flexible, reliable, scalable, and secure cloud computing environment with high-quality global network performance.
+- The AWS Global Infrastructure is designed and built to deliver a flexible, reliable, scalable, and secure cloud computing environment with high-quality global network performance.
 
-Educator-Led Demo: AWS Global Infrastructure Details:
+- Educator-Led Demo: AWS Global Infrastructure Details:
 
-The educator might now choose to conduct a live demonstration of the AWS Global Infrastructure map introduced on the previous slide.
+- The educator might now choose to conduct a live demonstration of the AWS Global Infrastructure map introduced on the previous slide.
 This resource provides an interactive way to learn about the AWS Global Infrastructure. The remaining slides in this section cover many of the same topics and go into greater detail on some topics.
 
 **AWS Regions:**
@@ -53,10 +53,10 @@ Determine the right Region for your services, applications, and data based on th
 
 
 ### **AWS data centers :**
-    - AWS data centers are designed for security.
-    - Data centers are where the data resides and data processing occurs.
-    - Each data center has redundant power, networking, and connectivity, and is housed in a separate facility.
-    - A data center typically has 50,000 to 80,000 physical servers.
+ - AWS data centers are designed for security.
+ - Data centers are where the data resides and data processing occurs.
+ - Each data center has redundant power, networking, and connectivity, and is housed in a separate facility.
+ - A data center typically has 50,000 to 80,000 physical servers.
 
 ### **AWS infrastructure features :**
 - Now we have a good understanding of the major components that comprise the AWS Global Infrastructure, let's consider the benefits provided by this infrastructure.
