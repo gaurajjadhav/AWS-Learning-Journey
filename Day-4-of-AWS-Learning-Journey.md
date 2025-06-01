@@ -95,7 +95,7 @@ IAM is a free service included with every AWS account and is essential for secur
 
 ### Authenticate as an IAM user to gain access	
 
-            Authentication means proving your identity before gaining access, similar to showing ID at airport security.
+Authentication means proving your identity before gaining access, similar to showing ID at airport security.
 In AWS, when you create an IAM user, you assign one or both types of access:
 - Programmatic access: The user gets an access key ID and secret access key to make API calls via AWS CLI, SDKs, or development tools.
    AWS Management Console access: The user logs in via a browser using the account ID or alias, IAM username, and password. If enabled, multi-factor authentication (MFA) adds an extra security code step.
