@@ -11,7 +11,6 @@ Topics Covered -
 
 ## Section 1: Fundamentals of Pricing
    1) AWS pricing model
-      
    Three fundamental drivers of cost with AWS
          - a) Compute
              - Charged per hour/second
