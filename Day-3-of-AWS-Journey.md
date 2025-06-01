@@ -33,38 +33,35 @@ The AWS Cloud infrastructure is built around Regions. AWS has 22 Regions worldwi
 
 An AWS Regionis a physical geographical location with one or more Availability Zones. Availability Zones in turn consist of one or more data centers.
 
-Selecting a Region :
-
+### Selecting a Region :
 Determine the right Region for your services, applications, and data based on these factors
   - Data governance, legal requirements
   - Proximity to customers (latency)
   - Services available within the Region
   - Costs (vary by Region)
 
-**Availability Zones :**
+### **Availability Zones :**
+- Each AWS Region has multiple, isolated locations that are known asAvailability Zones. 
 
-Each AWS Region has multiple, isolated locations that are known asAvailability Zones. 
+- Each Availability Zone provides the ability to operate applications and databases that are more highly available, fault-tolerant, and scalable than would be possible with a single data center. 
 
-Each Availability Zone provides the ability to operate applications and databases that are more highly available, fault-tolerant, and scalable than would be possible with a single data center. 
+- Each Availability Zone can include multiple data centers (typically three), and at full-scale, they can include hundreds of thousands of servers. 
 
-Each Availability Zone can include multiple data centers (typically three), and at full-scale, they can include hundreds of thousands of servers. 
+- They are fully isolated partitions of the AWS Global Infrastructure. Availability Zones have their own power infrastructure, and they are physically separated by many kilometers from other Availability Zones—though all Availability Zones are within 100 km of each other.
 
-They are fully isolated partitions of the AWS Global Infrastructure. Availability Zones have their own power infrastructure, and they are physically separated by many kilometers from other Availability Zones—though all Availability Zones are within 100 km of each other.
-
-All Availability Zones are interconnected with high-bandwidth, low-latency networking over fully redundant, dedicated fiber that provides high-throughput between Availability Zones. The network accomplishes synchronous replication between Availability Zones.
+- All Availability Zones are interconnected with high-bandwidth, low-latency networking over fully redundant, dedicated fiber that provides high-throughput between Availability Zones. The network accomplishes synchronous replication between Availability Zones.
 
 
-**AWS data centers :**
+### **AWS data centers :**
     - AWS data centers are designed for security.
     - Data centers are where the data resides and data processing occurs.
     - Each data center has redundant power, networking, and connectivity, and is housed in a separate facility.
     - A data center typically has 50,000 to 80,000 physical servers.
 
-**AWS infrastructure features :**
+### **AWS infrastructure features :**
+- Now we have a good understanding of the major components that comprise the AWS Global Infrastructure, let's consider the benefits provided by this infrastructure.
 
-Now we have a good understanding of the major components that comprise the AWS Global Infrastructure, let's consider the benefits provided by this infrastructure.
-
-The AWS Global Infrastructure has several valuable features:
+-The AWS Global Infrastructure has several valuable features:
     - First, it is elasticand scalable. This means resources can dynamically adjust to increases or decreases in capacity requirements. It can also rapidly adjust to accommodate growth.
     - Second, this infrastructure is fault tolerant, which means it has built-in component redundancy which enables it to continue operations despite a failed component.
     - Finally, it requires minimal to no human intervention, while providing high availability with minimal down time
