@@ -167,13 +167,7 @@ AWS provides several cost management services to help monitor and control spendi
  - **AWS CloudTrail** tracks user activity and API usage.
 
 
-### Hands-on activity:  AWS Management Console clickthrough
-- 1.Launch the Sandboxhands-on environment and connect to the AWS Management Console.
-- 2.Explore the AWS Management Console. 
-    - A.Click the Servicesmenu. 
-    - B.Notice how services are grouped into service categories.
-      
-  For example, the EC2service appears in the Computeservice category.
+# Hands-on activity:  AWS Management Console clickthrough
 
 #### **Question #1**: Under which service category does the IAM service appear?
 Ans. **Security, Identity, and Compliance**
@@ -181,15 +175,8 @@ Ans. **Security, Identity, and Compliance**
 #### **Question #2**: Under which service category does the AmazonVPCservice appear?
 Ans. **Networking & Content Delivery**
 
-
-  - C.Click the AmazonVPCservice. Notice that the dropdown menu in the top-right corner displays an AWS Region (for example, it might display N. Virginia). 
-  - D.Click the Region menu and switch to a different Region. For example, choose EU (London).
-  - E.Click Subnets(on the left side of the screen). The Region has three subnets in it. Click the box next to one of the subnets. Notice that the bottom half of the screen now displays details about this subnet. 
-
 #### Question #3: Does the subnet you selected exist at the level of the Region or at the level of the Availability Zone?
 Ans. **Availability Zone**
-
- - F.Click Your VPCs. An existing VPC is already selected. 
 
 #### Question #4: Does the VPC exist at the level of the Region or the level of the Availability Zone?
 Ans. **Region**
@@ -197,34 +184,34 @@ Ans. **Region**
 #### Question #5: Which services are global instead of Regional?  Check Amazon EC2, IAM, Lambda, and Route 53
 Ans.**IAM and Route 53**
 
-# Activity Steps 
+## Activity Steps 
 
-# 1. Launch and Access Console
+## 1. Launch and Access Console
 - Opened the AWS Sandbox environment.
 - Accessed the [AWS Management Console](https://aws.amazon.com/console/).
 
 
-# 2. Services Menu Observations
+## 2. Services Menu Observations
 - Clicked the **Services** menu.
 - Observed how services are grouped by category.
 
 
-# 3. Region & Subnet Inspection
+## 3. Region & Subnet Inspection
 - Selected **Amazon VPC**.
 - Checked the top-right to find the current AWS Region (e.g., N. Virginia).
 - Changed Region to **EU (London)**.
 
-# Navigated to Subnets:
+### Navigated to Subnets:
 - Clicked **Subnets** from the left menu.
 - Selected a subnet and reviewed the details displayed.
 
 
-# 4. VPC Configuration
+## 4. VPC Configuration
 - Clicked **Your VPCs**.
 - Viewed existing VPC details.
 
 
-# 5. Global vs. Regional Services
+## 5. Global vs. Regional Services
 
 Checked the scope of the following services:
 
@@ -237,7 +224,7 @@ Route 53	   :Global
 
 
 
-#  Activity Completed
+##  Activity Completed
 This hands-on activity helped in understanding:
 - AWS service groupings
 - Regional and AZ-level resource management
