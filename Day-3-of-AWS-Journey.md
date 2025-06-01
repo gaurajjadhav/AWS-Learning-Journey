@@ -121,7 +121,8 @@ AWS offers several key storage services, each designed for specific use cases:
 AWS provides a range of database services for different data needs:
  - **Amazon RDS**: Managed relational database service that simplifies setup, operation, and scaling. Automates backups, patching, and maintenance.
  - **Amazon Aurora**: High-performance relational database compatible with MySQL and PostgreSQL. Up to 5x faster than standard MySQL and 3x faster than PostgreSQL.
- - **Amazon Redshift**: Data warehouse solution optimized for analytics on petabytes of data, including integration with Amazon S3 for querying exabytes of data.  - **Amazon DynamoDB**: Fully managed NoSQL database (key-value and document-based) with single-digit millisecond performance, built-in security, backup, and in-memory caching.
+ - **Amazon Redshift**: Data warehouse solution optimized for analytics on petabytes of data, including integration with Amazon S3 for querying exabytes of data.
+ - **Amazon DynamoDB**: Fully managed NoSQL database (key-value and document-based) with single-digit millisecond performance, built-in security, backup, and in-memory caching.
 
 
 
@@ -181,14 +182,14 @@ Ans. **Security, Identity, and Compliance**
 Ans. **Networking & Content Delivery**
 
 
-    - C.Click the AmazonVPCservice. Notice that the dropdown menu in the top-right corner displays an AWS Region (for example, it might display N. Virginia). 
-    - D.Click the Region menu and switch to a different Region. For example, choose EU (London).
-    - E.Click Subnets(on the left side of the screen). The Region has three subnets in it. Click the box next to one of the subnets. Notice that the bottom half of the screen now displays details about this subnet. 
+  - C.Click the AmazonVPCservice. Notice that the dropdown menu in the top-right corner displays an AWS Region (for example, it might display N. Virginia). 
+  - D.Click the Region menu and switch to a different Region. For example, choose EU (London).
+  - E.Click Subnets(on the left side of the screen). The Region has three subnets in it. Click the box next to one of the subnets. Notice that the bottom half of the screen now displays details about this subnet. 
 
 #### Question #3: Does the subnet you selected exist at the level of the Region or at the level of the Availability Zone?
 Ans. **Availability Zone**
 
-    - F.Click Your VPCs. An existing VPC is already selected. 
+ - F.Click Your VPCs. An existing VPC is already selected. 
 
 #### Question #4: Does the VPC exist at the level of the Region or the level of the Availability Zone?
 Ans. **Region**
