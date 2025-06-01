@@ -12,41 +12,41 @@ Topics Covered -
 ## Section 1: Fundamentals of Pricing
    1) AWS pricing model
    Three fundamental drivers of cost with AWS
-         - a) Compute
-             - Charged per hour/second
-             - Varies by instance type
-               *Linux only
-         - b) Storage
-             - Charge typically per GB
-         - c) Data transfer
-             - Outbound is aggregated and charged
-             - Inbound has no charge  (with some exceptions)
-             - Charged typically per GB
+      - a) Compute
+          - Charged per hour/second
+          - Varies by instance type
+            *Linux only
+      - b) Storage
+         - Charge typically per GB
+      - c) Data transfer
+         - Outbound is aggregated and charged
+         - Inbound has no charge  (with some exceptions)
+         - Charged typically per GB
 
-           2)	How do you pay for AWS?
-                   AWS offers a range of cloud computing services. For each service, you pay for exactly the amount 
-                   of resources that you actually need. This utility style pricing model includes:
-                             • Pay for what you use
-                             • Pay less when you reserve
-                             • Pay less when you use more
-                             • Pay even less as AWS grows
+    2)	How do you pay for AWS?
+    
+       AWS offers a range of cloud computing services. For each service, you pay for exactly the amount 
+      of resources that you actually need. This utility style pricing model includes:
+         - Pay for what you use
+         - Pay less when you reserve
+         - Pay less when you use more
+         - Pay even less as AWS grows
 
-           3)	Pay for what you use
-                 Pay only for the services that you consume, with no 
-                 large upfront expenses
+    3)	Pay for what you use
+    Pay only for the services that you consume, with no large upfront expenses
 
-           4)	AWS Free Tier
-                 Enables you to gain free hands on experience with the AWS  platform, products, and services. Free for 1 year for new customers.
+    4)	AWS Free Tier
+    
+   Enables you to gain free hands on experience with the AWS  platform, products, and services. Free for 1 year for new customers.
 
-           5)	Services with no charge
-                           •  Amazon VPC lets you create a logically isolated virtual network in the AWS Cloud to launch your resources.
-                           •  AWS IAM manages user access to AWS services and resources securely.
-                           •  Consolidated Billing (via AWS Organizations) combines bills for multiple accounts, helps track charges, and can reduce costs through volume discounts.
-                           •  AWS Elastic Beanstalk simplifies application deployment and management in the cloud.
-                           •  AWS CloudFormation allows structured and predictable provisioning of AWS resources.
-                           •  Automatic Scaling adjusts resources based on demand to maintain performance and reduce costs.
-                           •  AWS OpsWorks helps deploy and manage applications of any size easily.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    5)	Services with no charge
+       - Amazon VPC lets you create a logically isolated virtual network in the AWS Cloud to launch your resources.
+       - AWS IAM manages user access to AWS services and resources securely.
+       - Consolidated Billing (via AWS Organizations) combines bills for multiple accounts, helps track charges, and can reduce costs through volume discounts.
+       - AWS Elastic Beanstalk simplifies application deployment and management in the cloud.
+       - AWS CloudFormation allows structured and predictable provisioning of AWS resources.
+       - Automatic Scaling adjusts resources based on demand to maintain performance and reduce costs.
+       - AWS OpsWorks helps deploy and manage applications of any size easily.
 
 Section 2: Total Cost of Ownership
           1)	What is Total Cost of Ownership (TCO)?                                                   
