@@ -1,6 +1,6 @@
- Day 2 – AWS Academy Cloud Foundations  
+# Day 2 – AWS Academy Cloud Foundations  
 
-Cloud Economics and Billing
+## Cloud Economics and Billing
 
 Topics Covered -
 • Fundamentals of pricing
@@ -8,20 +8,20 @@ Topics Covered -
 • AWS Organizations
 • AWS Billing and Cost Management
 • Technical Support
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Section 1: Fundamentals of Pricing
-            1)	AWS pricing model
-                 Three fundamental drivers of cost with AWS
-                      a)	Compute
-                              • Charged per hour/second*
-                              • Varies by instance type
+
+## Section 1: Fundamentals of Pricing
+           - 1)	AWS pricing model
+                - Three fundamental drivers of cost with AWS
+                     - a)	Compute
+                              - Charged per hour/second
+                              - Varies by instance type
                               *Linux only
-                      b)  Storage
-                              • Charge)  typically per GB
-                      c)	Data transfer
-                              • Outbound is aggregated and charged
-                              • Inbound has no charge  (with some exceptions)
-                              • Charged typically per GB
+                      - b)  Storage
+                              - Charge)  typically per GB
+                      - c)	Data transfer
+                              - Outbound is aggregated and charged
+                              - Inbound has no charge  (with some exceptions)
+                              - Charged typically per GB
 
            2)	How do you pay for AWS?
                    AWS offers a range of cloud computing services. For each service, you pay for exactly the amount 
