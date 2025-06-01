@@ -1,12 +1,12 @@
  # Day 3 – AWS Global Infrastructure Overview
- ### Today’s focus in the AWS Academy Cloud Foundations course was all about understanding 
- ### the AWS Global Infrastructure — the physical and regional foundation that powers the cloud
+  Today’s focus in the AWS Academy Cloud Foundations course was all about understanding 
+  the AWS Global Infrastructure — the physical and regional foundation that powers the cloud
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  **Topics:** 
-      • AWS Global Infrastructure
-      • AWS service and service category overview
+  - AWS Global Infrastructure
+  - AWS service and service category overview
 
 - **Demo :**  AWS Global Infrastructure
 
