@@ -152,21 +152,21 @@ AWS offers a range of security, identity, and compliance services to help protec
 
 ### AWS cost management service category :
 AWS provides several cost management services to help monitor and control spending:
- - AWS Cost and Usage Report: Offers the most detailed data on costs and usage, including metadata on services, pricing, and reservations.
- - AWS Budgets: Lets you set custom budgets and receive alerts when actual or forecasted costs exceed your defined limits.
- - AWS Cost Explorer: A visual tool to analyze and manage your AWS spending over time with easy-to-understand graphs and reports.
+ - **AWS Cost and Usage Report**: Offers the most detailed data on costs and usage, including metadata on services, pricing, and reservations.
+ - **AWS Budgets**: Lets you set custom budgets and receive alerts when actual or forecasted costs exceed your defined limits.
+ - **AWS Cost Explorer**: A visual tool to analyze and manage your AWS spending over time with easy-to-understand graphs and reports.
 
 
 ### Management and governance service category:
  - AWS management and governance services include the services listed here, and others.
- - The AWS Management Console provides a web-based user interface for accessing your AWS account.
- - AWS Config provides a service that helps you track resource inventory and changes.
- - Amazon CloudWatch allows you to monitor resources and applications.
- - AWS Auto Scaling provides features that allow you to scale multiple resources to meet demand.
- - AWS Command Line Interface provides a unified tool to manage AWS services.
- - AWS Trusted Advisor helps you optimize performance and security.
- - AWS Well-Architected Tool provides help in reviewing and improving your workloads.
- - AWS CloudTrail tracks user activity and API usage.
+ - The **AWS Management Console** provides a web-based user interface for accessing your AWS account.
+ - **AWS Config** provides a service that helps you track resource inventory and changes.
+ - **Amazon CloudWatch** allows you to monitor resources and applications.
+ - **AWS Auto Scaling** provides features that allow you to scale multiple resources to meet demand.
+ - **AWS Command Line Interface** provides a unified tool to manage AWS services.
+ - **AWS Trusted Advisor** helps you optimize performance and security.
+ - **AWS Well-Architected** Tool provides help in reviewing and improving your workloads.
+ - **AWS CloudTrail** tracks user activity and API usage.
 
 
 ### Hands-on activity:  AWS Management Console clickthrough
