@@ -100,10 +100,10 @@ Each AWS product is organized under these categories. For example, Amazon EC2 fa
 
 ### Storage service category :
 AWS offers several key storage services, each designed for specific use cases:
-    - **Amazon S3**: Scalable object storage with high availability, security, and performance. Ideal for websites, mobile apps, backups, IoT data, and big data analytics.
-    - **Amazon EBS**: Block storage optimized for use with EC2 instances. Supports high-performance workloads like databases, enterprise and containerized apps, and media workflows.
-    - **Amazon EFS**: Elastic file storage (NFS) that automatically scales with usage. Suitable for shared file storage across AWS and on-premises systems.
-    - **Amazon S3 Glacier**: Low-cost archival storage for long-term backup. Offers 99.999999999% (11 9s) durability and strong compliance and security features.
+  - **Amazon S3**: Scalable object storage with high availability, security, and performance. Ideal for websites, mobile apps, backups, IoT data, and big data analytics.
+  - **Amazon EBS**: Block storage optimized for use with EC2 instances. Supports high-performance workloads like databases, enterprise and containerized apps, and media workflows.
+  - **Amazon EFS**: Elastic file storage (NFS) that automatically scales with usage. Suitable for shared file storage across AWS and on-premises systems.
+  - **Amazon S3 Glacier**: Low-cost archival storage for long-term backup. Offers 99.999999999% (11 9s) durability and strong compliance and security features.
 
 
 ### Compute service category :
