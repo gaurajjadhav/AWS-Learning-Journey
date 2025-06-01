@@ -122,99 +122,93 @@ AWS offers several key storage services, each designed for specific use cases:
 
 ### Database service category :
 AWS provides a range of database services for different data needs:
-  - **Amazon RDS**: Managed relational database service that simplifies setup, operation, and scaling. Automates backups, patching, and maintenance.
-  - **Amazon Aurora**: High-performance relational database compatible with MySQL and PostgreSQL. Up to 5x faster than standard MySQL and 3x faster than PostgreSQL.
-  - **Amazon Redshift**: Data warehouse solution optimized for analytics on petabytes of data, including integration with Amazon S3 for querying exabytes of data.
-  - **Amazon DynamoDB**: Fully managed NoSQL database (key-value and document-based) with single-digit millisecond performance, built-in security, backup, and in-memory caching.
+ - **Amazon RDS**: Managed relational database service that simplifies setup, operation, and scaling. Automates backups, patching, and maintenance.
+ - **Amazon Aurora**: High-performance relational database compatible with MySQL and PostgreSQL. Up to 5x faster than standard MySQL and 3x faster than PostgreSQL.
+ - **Amazon Redshift**: Data warehouse solution optimized for analytics on petabytes of data, including integration with Amazon S3 for querying exabytes of data.  - **Amazon DynamoDB**: Fully managed NoSQL database (key-value and document-based) with single-digit millisecond performance, built-in security, backup, and in-memory caching.
 
 
 
 ### Networking and content delivery service category:
 AWS offers a variety of networking and content delivery services to ensure secure, fast, and reliable connectivity:
-    - **Amazon VPC**: Creates isolated networks in the AWS Cloud for secure resource deployment.
-    - **Elastic Load Balancing (ELB)**: Distributes incoming traffic across EC2 instances, containers, IPs, or Lambda functions for high availability.
-    - **Amazon CloudFront**: A content delivery network (CDN) that delivers data and applications globally with low latency and high speed.
-    - **AWS Transit Gateway**: Connects multiple VPCs and on-premises networks through a central gateway.
-    - **Amazon Route 53**: A scalable DNS service that routes users to internet applications by translating domain names into IP addresses.
-    - **AWS Direct Connect**: Establishes a dedicated private network connection from your data center to AWS for improved performance.
-    - **AWS VPN**: Provides a secure tunnel between your network or device and the AWS global infrastructure
+ - **Amazon VPC**: Creates isolated networks in the AWS Cloud for secure resource deployment.
+ - **Elastic Load Balancing (ELB)**: Distributes incoming traffic across EC2 instances, containers, IPs, or Lambda functions for high availability.
+ - **Amazon CloudFront**: A content delivery network (CDN) that delivers data and applications globally with low latency and high speed.
+ - **AWS Transit Gateway**: Connects multiple VPCs and on-premises networks through a central gateway.
+ - **Amazon Route 53**: A scalable DNS service that routes users to internet applications by translating domain names into IP addresses.
+ - **AWS Direct Connect**: Establishes a dedicated private network connection from your data center to AWS for improved performance.
+ - **AWS VPN**: Provides a secure tunnel between your network or device and the AWS global infrastructure
 
 
 ### Security, identity, and compliance service category:
 AWS offers a range of security, identity, and compliance services to help protect your applications and data:
-    • AWS IAM (Identity and Access Management): Manage users, groups, and permissions to securely control access to AWS resources.
-    • AWS Organizations: Centrally manage multiple AWS accounts and apply policies to control service and action permissions.
-    • Amazon Cognito: Add user sign-up, sign-in, and access control to web and mobile apps.
-    • AWS Artifact: Provides on-demand access to compliance reports and agreements for audits and security documentation.
-    • AWS Key Management Service (KMS): Create and manage encryption keys to protect data across AWS services and applications.
-    • AWS Shield: Managed DDoS protection for safeguarding applications from attacks.
+ - **AWS IAM**(Identity and Access Management): Manage users, groups, and permissions to securely control access to AWS resources.
+ - **AWS Organizations**: Centrally manage multiple AWS accounts and apply policies to control service and action permissions.
+ - **Amazon Cognito**: Add user sign-up, sign-in, and access control to web and mobile apps.
+ - **AWS Artifact**: Provides on-demand access to compliance reports and agreements for audits and security documentation.
+ - **AWS Key Management Service (KMS**): Create and manage encryption keys to protect data across AWS services and applications.
+ - **AWS Shield**: Managed DDoS protection for safeguarding applications from attacks.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-AWS cost management service category :
+
+### AWS cost management service category :
 AWS provides several cost management services to help monitor and control spending:
-    • AWS Cost and Usage Report: Offers the most detailed data on costs and usage, including metadata on services, pricing, and reservations.
-    • AWS Budgets: Lets you set custom budgets and receive alerts when actual or forecasted costs exceed your defined limits.
-    • AWS Cost Explorer: A visual tool to analyze and manage your AWS spending over time with easy-to-understand graphs and reports.
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Management and governance service category:
-    • AWS management and governance services include the services listed here, and others.
-    • The AWS Management Console provides a web-based user interface for accessing your AWS account.
-    • AWS Config provides a service that helps you track resource inventory and changes.
-    • Amazon CloudWatch allows you to monitor resources and applications.
-    • AWS Auto Scaling provides features that allow you to scale multiple resources to meet demand.
-    • AWS Command Line Interface provides a unified tool to manage AWS services.
-    • AWS Trusted Advisor helps you optimize performance and security.
-    • AWS Well-Architected Tool provides help in reviewing and improving your workloads.
-    • AWS CloudTrail tracks user activity and API usage.
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ - AWS Cost and Usage Report: Offers the most detailed data on costs and usage, including metadata on services, pricing, and reservations.
+ - AWS Budgets: Lets you set custom budgets and receive alerts when actual or forecasted costs exceed your defined limits.
+ - AWS Cost Explorer: A visual tool to analyze and manage your AWS spending over time with easy-to-understand graphs and reports.
 
 
-Hands-on activity:  AWS Management Console clickthrough
-1.Launch the Sandboxhands-on environment and connect to the AWS Management Console.
-2.Explore the AWS Management Console. 
-    A.Click the Servicesmenu. 
-    B.Notice how services are grouped into service categories. 
-    For example, the EC2service appears in the Computeservice category.
+### Management and governance service category:
+ - AWS management and governance services include the services listed here, and others.
+ - The AWS Management Console provides a web-based user interface for accessing your AWS account.
+ - AWS Config provides a service that helps you track resource inventory and changes.
+ - Amazon CloudWatch allows you to monitor resources and applications.
+ - AWS Auto Scaling provides features that allow you to scale multiple resources to meet demand.
+ - AWS Command Line Interface provides a unified tool to manage AWS services.
+ - AWS Trusted Advisor helps you optimize performance and security.
+ - AWS Well-Architected Tool provides help in reviewing and improving your workloads.
+ - AWS CloudTrail tracks user activity and API usage.
 
-Question #1: Under which service category does the IAM service appear? 
-Question #2: Under which service category does the AmazonVPCservice appear?
 
-    C.Click the AmazonVPCservice. Notice that the dropdown menu in the top-right corner displays an AWS Region (for example, it might display N. Virginia). 
-    D.Click the Region menu and switch to a different Region. For example, choose EU (London).
-    E.Click Subnets(on the left side of the screen). The Region has three subnets in it. Click the box next to one of the subnets. Notice that the bottom half of the screen now displays details about this subnet. 
+### Hands-on activity:  AWS Management Console clickthrough
+- 1.Launch the Sandboxhands-on environment and connect to the AWS Management Console.
+- 2.Explore the AWS Management Console. 
+    - A.Click the Servicesmenu. 
+    - B.Notice how services are grouped into service categories.
+      
+  For example, the EC2service appears in the Computeservice category.
 
-Question #3: Does the subnet you selected exist at the level of the Region or at the level of the Availability Zone?
+#### **Question #1**: Under which service category does the IAM service appear?
+Ans. **Security, Identity, and Compliance**
 
-    F.Click Your VPCs. An existing VPC is already selected. 
+#### **Question #2**: Under which service category does the AmazonVPCservice appear?
+Ans. **Networking & Content Delivery**
 
-Question #4: Does the VPC exist at the level of the Region or the level of the Availability Zone?
-Question #5: Which services are global instead of Regional?  Check Amazon EC2, IAM, Lambda, and Route 53
 
-Answer :
-# Activity Steps & Answers
+    - C.Click the AmazonVPCservice. Notice that the dropdown menu in the top-right corner displays an AWS Region (for example, it might display N. Virginia). 
+    - D.Click the Region menu and switch to a different Region. For example, choose EU (London).
+    - E.Click Subnets(on the left side of the screen). The Region has three subnets in it. Click the box next to one of the subnets. Notice that the bottom half of the screen now displays details about this subnet. 
+
+#### Question #3: Does the subnet you selected exist at the level of the Region or at the level of the Availability Zone?
+Ans. **Availability Zone**
+
+    - F.Click Your VPCs. An existing VPC is already selected. 
+
+#### Question #4: Does the VPC exist at the level of the Region or the level of the Availability Zone?
+Ans. **Region**
+
+#### Question #5: Which services are global instead of Regional?  Check Amazon EC2, IAM, Lambda, and Route 53
+Ans.**IAM and Route 53**
+
+# Activity Steps 
 
 # 1. Launch and Access Console
 - Opened the AWS Sandbox environment.
 - Accessed the [AWS Management Console](https://aws.amazon.com/console/).
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 # 2. Services Menu Observations
 - Clicked the **Services** menu.
 - Observed how services are grouped by category.
-
-#❓ Question 1: Under which service category does the **IAM** service appear?
-    --> Security, Identity, and Compliance
-
-#❓ Question 2: Under which service category does the **Amazon VPC** service appear? 
-    --> Networking & Content Delivery
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # 3. Region & Subnet Inspection
@@ -226,46 +220,32 @@ Answer :
 - Clicked **Subnets** from the left menu.
 - Selected a subnet and reviewed the details displayed.
 
-#❓ Question 3: Does the subnet exist at the level of the Region or Availability Zone?
-   --> Availability Zone
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 # 4. VPC Configuration
 - Clicked **Your VPCs**.
 - Viewed existing VPC details.
-
-#❓ Question 4: Does the VPC exist at the level of the Region or the Availability Zone?
-   --> Region
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # 5. Global vs. Regional Services
 
 Checked the scope of the following services:
 
-Service	   Scope
-EC2	        Regional
-IAM	        Global
-Lambda	     Regional
-Route 53	   Global
+Service	  
+
+EC2	     :   Regional
+IAM	      :  Global
+Lambda	    : Regional
+Route 53	   :Global
 
 
-#❓ Question 5: Which services are global instead of Regional?
-   --> IAM and Route 53
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-# ✅ Activity Completed
+#  Activity Completed
 This hands-on activity helped in understanding:
 - AWS service groupings
 - Regional and AZ-level resource management
 - Global vs Regional service scope in AWS
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
