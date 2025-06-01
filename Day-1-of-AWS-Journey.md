@@ -49,8 +49,8 @@ Today, I explored the AWS Cloud Adoption Framework (AWS CAF), which helps busine
 It highlights the need for organization-wide collaboration and thoughtful planning to fully realize the benefits of the AWS Cloud
 
 ### The framework splits into:
-Business Capabilities: Business | People | Governance
-Technical Capabilities: Platform | Security | Operations
+- Business Capabilities: Business | People | Governance
+- Technical Capabilities: Platform | Security | Operations
 
 Each perspective plays a vital role in aligning strategy, culture, and technology to ensure a smooth and successful cloud adoption.
 Learning how cloud transformation is as much about people and processes as it is about technology has been a key takeaway today.
