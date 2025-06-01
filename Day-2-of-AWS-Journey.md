@@ -88,13 +88,13 @@ These tools include AWS Bills, AWS Cost Explorer, AWS Budgets, and AWS Cost and 
 
 ## Section 5: Technical support:
    1) AWS support Provide unique combination of tools and expertise:
-    - AWS Support 
-    - AWS Support Plans	
+   - AWS Support 
+   - AWS Support Plans	
 
    2) Support is provided for:
-    - Experimenting with AWS
-    - Production use of AWS
-    - Business-critical use of AWS
+   - Experimenting with AWS
+   - Production use of AWS
+   - Business-critical use of AWS
 
 
 
