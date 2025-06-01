@@ -214,7 +214,7 @@ This hands-on activity helped in understanding:
 - Regional and AZ-level resource management
 - Global vs Regional service scope in AWS
 
-
+## Question Answers on Activity :
 
 #### **Question 1**: Under which service category does the IAM service appear?
 Ans. *Security, Identity, and Compliance*
