@@ -23,7 +23,7 @@ Topics Covered -
          - Inbound has no charge  (with some exceptions)
          - Charged typically per GB
 
-    2)	How do you pay for AWS?
+    2) How do you pay for AWS?
        AWS offers a range of cloud computing services. For each service, you pay for exactly the amount 
       of resources that you actually need. This utility style pricing model includes:
          - Pay for what you use
