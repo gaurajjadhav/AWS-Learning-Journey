@@ -61,7 +61,7 @@ Determine the right Region for your services, applications, and data based on th
 ### **AWS infrastructure features :**
 - Now we have a good understanding of the major components that comprise the AWS Global Infrastructure, let's consider the benefits provided by this infrastructure.
 
--The AWS Global Infrastructure has several valuable features:
+- The AWS Global Infrastructure has several valuable features:
   - First, it is elasticand scalable. This means resources can dynamically adjust to increases or decreases in capacity requirements. It can also rapidly adjust to accommodate growth.
   - Second, this infrastructure is fault tolerant, which means it has built-in component redundancy which enables it to continue operations despite a failed component.
   - Finally, it requires minimal to no human intervention, while providing high availability with minimal down time
