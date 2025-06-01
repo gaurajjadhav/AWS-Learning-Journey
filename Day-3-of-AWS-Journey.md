@@ -76,10 +76,10 @@ Here is a look at how these cloud based products are organized.
 The AWS Global Infrastructure is built on three key elements: Regions, Availability Zones, and Points of Presence (edge locations). This global setup supports a wide range of on-demand services—including compute, networking, storage, and databases—with pay-as-you-go pricing and rapid provisioning.
 
 A typical AWS service stack includes:
-    - Infrastructure Layer: Regions, Availability Zones, and Edge Locations
-    - Foundational Services: Compute, Networking, Storage
-    - Platform Services: Databases, Analytics, App Services, Deployment & Management, Mobile
-    - Application Layer: Virtual Desktops, Collaboration & Sharing Tools
+ - Infrastructure Layer: Regions, Availability Zones, and Edge Locations
+ - Foundational Services: Compute, Networking, Storage
+ - Platform Services: Databases, Analytics, App Services, Deployment & Management, Mobile
+ - Application Layer: Virtual Desktops, Collaboration & Sharing Tools
     
 This layered architecture ensures high availability, scalability, and global accessibility for users and applications.
 
@@ -87,13 +87,13 @@ This layered architecture ensures high availability, scalability, and global acc
 ### **AWS categories of services :**
 AWS offers 23 product categories, each containing multiple services. This course focuses only on the most widely used and introductory services, especially those relevant to the AWS Certified Cloud Practitioner exam.
 The key service categories covered are:
-    - Compute
-    - Cost Management
-    - Database
-    - Management & Governance
-    - Networking & Content Delivery
-    - Security, Identity & Compliance
-    - Storage
+ - Compute
+ - Cost Management
+ - Database
+ - Management & Governance
+ - Networking & Content Delivery
+ - Security, Identity & Compliance
+ - Storage
     
 Each AWS product is organized under these categories. For example, Amazon EC2 falls under Compute. You can explore all services at aws.amazon.com/products.
 
