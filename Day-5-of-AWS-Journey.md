@@ -317,7 +317,7 @@ Benefits:
 
 ### DNS failover for a multi-tiered web application
 
-### Route 53 for high availability with failover:
+#### Route 53 for high availability with failover:
 - 1.	Create two CNAME DNS records using Failover Routing:
   -	Primary record points to your web app’s load balancer.
   -	Secondary record points to a static Amazon S3 website as backup.
@@ -371,7 +371,7 @@ Benefits:
 
 ## Lab 2: Build Your VPC and Launch a Web Server
 
-In this lab, you use Amazon VPC to create your own VPC and add some components to produce a customized network. You create a security group for your VPC. You also create an EC2 instance and configure it to run a web server and to use the security group. You then launch the EC2 instance into the VPC.
+In this lab, I uses Amazon VPC to create my own VPC and add some components to produce a customized network. I have Created a security group for my VPC. Also created an EC2 instance and configure it to run a web server and to use the security group. Then launch the EC2 instance into the VPC.
 
 - Created an Amazon VPC.
 - Created additional subnets.
