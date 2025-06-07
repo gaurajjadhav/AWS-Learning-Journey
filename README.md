@@ -31,7 +31,6 @@
       - Hands-on activity
 
  ## Day 4 -AWS Cloud Security
-   #### - Topics:
   - AWS shared responsibility model
   - AWS Identity and Access Management (IAM)
   - Securing a new AWS account
@@ -39,14 +38,13 @@
   - Securing data on AWS
   - Working to ensure compliance
   #### Activities : 
-  AWS shared responsibility model activity
+  - AWS shared responsibility model activity
   #### Demo :
-  Recorded demonstration of IAM
+  - Recorded demonstration of IAM
   #### Lab on :
-  Introduction to AWS IAM
+  - Introduction to AWS IAM
 
 ## Day 5 - Networking and Content Delivery
-  #### Topics
   - Networking basics
   - Amazon VPC
   - VPC networking
