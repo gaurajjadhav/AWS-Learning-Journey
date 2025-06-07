@@ -38,26 +38,26 @@
   - Securing accounts
   - Securing data on AWS
   - Working to ensure compliance
-  - Activities : 
+  #### Activities : 
     AWS shared responsibility model activity
-  - Demo :
+  #### Demo :
     Recorded demonstration of IAM
-  - Lab on :
+  #### Lab on :
     Introduction to AWS IAM
 
 ## Day 5 - Networking and Content Delivery
-  ### Topics
-        - Networking basics
-        - Amazon VPC
-        - VPC networking
-        - VPC security
-        - Amazon Route 53 
-        - Amazon CloudFront
-  ### Activities
-        - Label a network diagram
-        - Design a basic VPC architecture
-  ### Demo
-        - VPC demonstration
-  ### Lab
-        - Build VPC and launch a web server
+  #### Topics
+  - Networking basics
+  - Amazon VPC
+  - VPC networking
+  - VPC security
+  - Amazon Route 53 
+  - Amazon CloudFront
+  #### Activities :
+  - Label a network diagram
+  - Design a basic VPC architecture
+  #### Demo :
+  - VPC demonstration
+  #### Lab on :
+  - Build VPC and launch a web server
 
