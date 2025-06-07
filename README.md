@@ -19,7 +19,6 @@
       - AWS Regions
       - Availability Zones
       
-   
  - AWS service and service category overview
       - AWS categories of services :
       - Storage service 
