@@ -58,3 +58,14 @@
   #### Lab on :
   - Build VPC and launch a web server
 
+## Day 6 - Compute
+- Compute services overview
+- Amazon EC2
+- Amazon EC2 cost optimization
+- Container services
+- Introduction to AWS Lambda
+- Introduction to AWS Elastic Beanstalk
+
+**Lab**
+- Introduction to Amazon EC2    
+
