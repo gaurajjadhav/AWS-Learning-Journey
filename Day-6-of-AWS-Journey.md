@@ -119,16 +119,22 @@ An AMI (Amazon Machine Image) can be created from an existing EC2 instance, whet
 Steps to create a custom AMI:
 
 **1.	Start with a base instance :**
+
 Launch an EC2 instance using a Quick Start AMI or by importing your own virtual machine. This creates an unmodified instance.
 
 **2.	Customize the instance :**
+
 Configure it with the desired OS settings, applications, and tools—this is often called a golden instance.
+
 **3.	Create the AMI :**
+
 Once your instance is ready, you can create a new AMI from it.
 -	EC2 stops the instance,
 -	Takes a snapshot of the root volume,
 -	And registers it as an AMI.
+  
 **4.	Reuse and share :**
+
 -	The new AMI can now be used to launch identical instances in the same Region.
 -	You can also copy the AMI to other Regions to support deployments across different geographies.
 
